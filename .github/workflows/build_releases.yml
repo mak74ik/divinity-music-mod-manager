@@ -1,0 +1,47 @@
+name: Build Cross-Platform Releases
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller pythonnet
+
+      - name: Download Windows ffmpeg
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip" -OutFile "ffmpeg.zip"
+          Expand-Archive -Path "ffmpeg.zip" -DestinationPath "ffmpeg_extracted"
+          New-Item -ItemType Directory -Force -Path "bin"
+          Copy-Item "ffmpeg_extracted/ffmpeg-master-latest-win64-gpl/bin/ffmpeg.exe" -Destination "bin/ffmpeg.exe"
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --noconfirm --clean DivinityMusicManager.spec
+
+      - name: Create Windows Zip Archive
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/DivinityMusicManager/*" -DestinationPath "Divinity_Music_Mod_Manager_v1.0_Windows.zip"
+
+      - name: Upload Windows Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Divinity_Music_Mod_Manager_v1.0_Windows
+          path: Divinity_Music_Mod_Manager_v1.0_Windows.zip

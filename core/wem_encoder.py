@@ -31,20 +31,32 @@ def get_base_dir():
 
 def find_ffmpeg():
     base = get_base_dir()
-    bundled = os.path.join(base, "bin", "ffmpeg")
-    if os.path.exists(bundled) and os.access(bundled, os.X_OK):
-        return bundled
+    for name in ["ffmpeg.exe", "ffmpeg"]:
+        bundled = os.path.join(base, "bin", name)
+        if os.path.exists(bundled) and (sys.platform == 'win32' or os.access(bundled, os.X_OK)):
+            return bundled
     import shutil
-    sys_ffmpeg = shutil.which("ffmpeg")
+    sys_ffmpeg = shutil.which("ffmpeg.exe") or shutil.which("ffmpeg")
     if sys_ffmpeg:
         return sys_ffmpeg
-    for p in ["/opt/homebrew/bin/ffmpeg", "/usr/local/bin/ffmpeg", "/usr/bin/ffmpeg"]:
-        if os.path.exists(p) and os.access(p, os.X_OK):
+    for p in ["/opt/homebrew/bin/ffmpeg", "/usr/local/bin/ffmpeg", "/usr/bin/ffmpeg", r"C:\ffmpeg\bin\ffmpeg.exe"]:
+        if os.path.exists(p):
             return p
-    return "ffmpeg"
+    return "ffmpeg.exe" if sys.platform == 'win32' else "ffmpeg"
 
 def get_aotuv_bin():
-    return os.path.join(get_base_dir(), "bin", "aotuv_enc")
+    base = get_base_dir()
+    if sys.platform == 'win32':
+        for name in ["oggenc2.exe", "aotuv_enc.exe", "oggenc.exe"]:
+            p = os.path.join(base, "bin", name)
+            if os.path.exists(p):
+                return p
+        import shutil
+        found = shutil.which("oggenc2.exe") or shutil.which("oggenc.exe") or shutil.which("aotuv_enc.exe")
+        if found:
+            return found
+        return os.path.join(base, "bin", "oggenc2.exe")
+    return os.path.join(base, "bin", "aotuv_enc")
 
 def get_codebooks_bin():
     return os.path.join(get_base_dir(), "assets", "packed_codebooks_aoTuV_603.bin")
@@ -117,12 +129,19 @@ def convert_audio_to_wem(input_path: str, ffmpeg_bin: str = None) -> bytes:
             raise RuntimeError(f"FFmpeg audio processing failed for {input_path}")
 
         # 2. Encode with aoTuV at quality 0.9
-        cmd_enc = [
-            get_aotuv_bin(), raw_pcm, ogg_path, "0.9", "2", "44100"
-        ]
+        enc_bin = get_aotuv_bin()
+        enc_name = os.path.basename(enc_bin).lower()
+        if "oggenc" in enc_name:
+            cmd_enc = [
+                enc_bin, "-r", "-B", "16", "-C", "2", "-R", "44100", "-q", "9", "-o", ogg_path, raw_pcm
+            ]
+        else:
+            cmd_enc = [
+                enc_bin, raw_pcm, ogg_path, "0.9", "2", "44100"
+            ]
         res = subprocess.run(cmd_enc, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if res.returncode != 0:
-            raise RuntimeError("aoTuV Vorbis encoding failed")
+            raise RuntimeError(f"aoTuV Vorbis encoding failed with {enc_bin}")
 
         # 3. Read OGG
         with open(ogg_path, "rb") as f:
