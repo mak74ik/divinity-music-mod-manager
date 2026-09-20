@@ -1,0 +1,108 @@
+Created At: 2026-09-05T11:24:22+03:00
+Completed At: 2026-09-05T11:24:22+03:00
+File Path: `file:///tmp/Music_events.txt`
+Total Lines: 171
+Total Bytes: 36900
+Showing lines 1 to 100
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: Event	ID	Name			Wwise Object Path	Notes
+2: 	12957221	Playlist_Hiberheim_Entrance_new			\Music\Explore\Playlist_Hiberheim_Entrance_new	
+3: 	15272676	Playlist_Beach_new			\Music\Explore\Playlist_Beach_new	
+4: 	100807837	Emoment_WolgraffWantsToBeSH			\Music\Emotional Music\Emoment_WolgraffWantsToBeSH	
+5: 	119257277	Playlist_HIB_WhiteWitch_new			\Music\Explore\Playlist_HIB_WhiteWitch_new	
+6: 	228175584	Playlist_Friendly_new			\Music\Explore\Playlist_Friendly_new	
+7: 	380813451	Playlist_LUC_GoblinVillage_new			\Music\Explore\Playlist_LUC_GoblinVillage_new	
+8: 	478880039	Playlist_Endgame			\Music\Explore\Playlist_Endgame	
+9: 	485892109	Emoment_SamsonStory			\Music\Emotional Music\Emoment_SamsonStory	
+10: 	648636958	Playlist_HIB_Cave_new			\Music\Explore\Playlist_HIB_Cave_new	
+11: 	709302771	Playlist_Dungeon_new			\Music\Explore\Playlist_Dungeon_new	
+12: 	887107375	Playlist_MainTheme_new			\Music\Explore\Playlist_MainTheme_new	
+13: 	901803538	Playlist_BigBossLeandra			\Music\Explore\Playlist_BigBossLeandra	
+14: 	937837582	Emoment_MeetingThirdGuardian			\Music\Emotional Music\Emoment_MeetingThirdGuardian	
+15: 	980077576	Music_Credits_Stop			\Music\Music_Credits_Stop	
+16: 	984018499	Playlist_Home_HallOfHeroes_new			\Music\Explore\Playlist_Home_HallOfHeroes_new	
+17: 	1085708357	Music_BossFight_Start			\Music\Music_BossFight_Start	
+18: 	1106519134	Playlist_CharScreen			\Music\Explore\Playlist_CharScreen	
+19: 	1263197720	Emoment_JahanFacesBalberith			\Music\Emotional Music\Emoment_JahanFacesBalberith	
+20: 	1305191925	Playlist_KnightsTomb_new			\Music\Explore\Playlist_KnightsTomb_new	
+21: 	1491766670	Playlist_Boss_new			\Music\Explore\Playlist_Boss_new	
+22: 	1704042509	Music_Shroud_Enter			\Music\Music_Shroud_Enter	
+23: 	1728483233	Music_Shroud_Exit			\Music\Music_Shroud_Exit	
+24: 	1843872079	Music_Fight_End			\Music\Music_Fight_End	
+25: 	1865527937	Playlist_ImmaculateVillage_new			\Music\Explore\Playlist_ImmaculateVillage_new	
+26: 	1882971781	Music_Credits			\Music\Music_Credits	
+27: 	1940217408	Music_Game_Enter			\Music\Music_Game_Enter	
+28: 	2022618719	Playlist_CysMarketFade			\Music\Explore\Playlist_CysMarketFade	
+29: 	2227898505	Playlist_Sneaking_new			\Music\Explore\Playlist_Sneaking_new	
+30: 	2250386541	Audio_MainMenu_Enter			\Music\Menus\Audio_MainMenu_Enter	
+31: 	2250473094	Playlist_CysMarket_new			\Music\Explore\Playlist_CysMarket_new	
+32: 	2506818687	Emoment_Samson_DesdemonaReconcile			\Music\Emotional Music\Emoment_Samson_DesdemonaReconcile	
+33: 	2522405638	Playlist_Hiberheim_new			\Music\Explore\Playlist_Hiberheim_new	
+34: 	2614573543	Music_BossFight_Stop			\Music\Music_BossFight_Stop	
+35: 	2629389560	Playlist_CysBeach_BC			\Music\Explore\Playlist_CysBeach_BC	
+36: 	2644224296	Emoment_MadoraMeetsNorok			\Music\Emotional Music\Emoment_MadoraMeetsNorok	
+37: 	2845638018	Playlist_Mute_Trans			\Music\Explore\Playlist_Mute_Trans	
+38: 	2884384370	Playlist_TavernFade			\Music\Explore\Playlist_TavernFade	
+39: 	2894124516	Emoment_Jahan_Hiraka			\Music\Emotional Music\Emoment_Jahan_Hiraka	
+40: 	2901597576	Playlist_Luc_Bard_1			\Music\Explore\Playlist_Luc_Bard_1	
+41: 	2901597578	Playlist_Luc_Bard_3			\Music\Explore\Playlist_Luc_Bard_3	
+42: 	2901597579	Playlist_Luc_Bard_2			\Music\Explore\Playlist_Luc_Bard_2	
+43: 	2901597580	Playlist_Luc_Bard_5			\Music\Explore\Playlist_Luc_Bard_5	
+44: 	2901597581	Playlist_Luc_Bard_4			\Music\Explore\Playlist_Luc_Bard_4	
+45: 	2906175779	Playlist_Homestead_new			\Music\Explore\Playlist_Homestead_new	
+46: 	3019209822	Playlist_Beach_Start			\Music\Explore\Playlist_Beach_Start	
+47: 	3059316805	Playlist_Immaculate_new			\Music\Explore\Playlist_Immaculate_new	
+48: 	3174338090	Emoment_Bjorn_Mara			\Music\Emotional Music\Emoment_Bjorn_Mara	
+49: 	3235861421	Playlist_LUC_Silverglen_new			\Music\Explore\Playlist_LUC_Silverglen_new	
+50: 	3478749454	Emoment_WolgraffFacesImal			\Music\Emotional Music\Emoment_WolgraffFacesImal	
+51: 	3498131715	Playlist_Tavern_new			\Music\Explore\Playlist_Tavern_new	
+52: 	3674175934	Playlist_Forest_new			\Music\Explore\Playlist_Forest_new	
+53: 	3731810087	Emoment_PostTapestryMovie			\Music\Emotional Music\Emoment_PostTapestryMovie	
+54: 	3758903569	Playlist_CassandraTomb_new			\Music\Explore\Playlist_CassandraTomb_new	
+55: 	3808694423	Emoment_ArhusTruth			\Music\Emotional Music\Emoment_ArhusTruth	
+56: 	3818273572	Playlist_NegaTavern_new			\Music\Explore\Playlist_NegaTavern_new	
+57: 	3825354510	Playlist_Undead_new			\Music\Explore\Playlist_Undead_new	
+58: 	3843729562	Emoment_BairdotrFindsJareth			\Music\Emotional Music\Emoment_BairdotrFindsJareth	
+59: 	3876948117	Playlist_BlackCove_new			\Music\Explore\Playlist_BlackCove_new	
+60: 	3986302892	Music_Fight_Start			\Music\Music_Fight_Start	
+61: 	4183273859	Playlist_Trollcave_new			\Music\Explore\Playlist_Trollcave_new	
+62: 
+63: Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+64: 	36241249	Kirill Pokrovsky-Sighs of the Elvenkind - DIVINE DIVINITY	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Sighs of the Elvenkind - DIVINE DIVINITY_CC09524D.wem	36241249.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Forest_new\Kirill Pokrovsky-Sighs of the Elvenkind - DIVINE DIVINITY\Kirill Pokrovsky-Sighs of the Elvenkind - DIVINE DIVINITY	
+65: 	41990860	Kirill Pokrovsky-Forest and Wind	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Forest and Wind_CC09524D.wem	41990860.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Friendly_new\Kirill Pokrovsky-Forest and Wind\Kirill Pokrovsky-Forest and Wind	
+66: 	46701626	Kirill Pokrovsky-Stealing Light	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Stealing Light_CC09524D.wem	46701626.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Dungeon_new\Kirill Pokrovsky-Stealing Light\Kirill Pokrovsky-Stealing Light	
+67: 	68390062	Kirill Pokrovsky-The Road to Nowhere	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-The Road to Nowhere_CC09524D.wem	68390062.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_LUC_Silverglen_new\Kirill Pokrovsky-The Road to Nowhere\Kirill Pokrovsky-The Road to Nowhere	
+68: 	73372589	Kirill Pokrovsky-Original Sin	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Original Sin_CC09524D.wem	73372589.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_MainTheme_new\Kirill Pokrovsky-Original Sin\Kirill Pokrovsky-Original Sin	
+69: 	93489105	Kirill Pokrovsky-Source Hunter Alt	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Source Hunter Alt_E90D60CF.wem	93489105.wem	\Interactive Music Hierarchy\Music\Music_Credits\Kirill Pokrovsky-Source Hunter Alt\Kirill Pokrovsky-Source Hunter Alt	
+70: 	98925550	Kirill Pokrovsky-Mirror of Truth	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Mirror of Truth_CC09524D.wem	98925550.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Beach_Start\Kirill Pokrovsky-Mirror of Truth\Kirill Pokrovsky-Mirror of Truth	
+71: 	101217266	Kirill Pokrovsky-Clockwork	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Clockwork_CC09524D.wem	101217266.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Homestead_new\Kirill Pokrovsky-Clockwork\Kirill Pokrovsky-Clockwork	
+72: 	105957571	Kirill Pokrovsky-Bloodstone	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Bloodstone_CC09524D.wem	105957571.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Immaculate_new\Kirill Pokrovsky-Bloodstone\Kirill Pokrovsky-Bloodstone	
+73: 	107079810	Kirill Pokrovsky-Dark Delirium	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Dark Delirium_CC09524D.wem	107079810.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Dungeon_new\Kirill Pokrovsky-Dark Delirium\Kirill Pokrovsky-Dark Delirium	
+74: 	149871992	Kirill Pokrovsky-Broken Valley Awakens - THE DRAGON KNIGHT SAGA	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Broken Valley Awakens - THE DRAGON KNIGHT SAGA_CC09524D.wem	149871992.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_LUC_Bard_3\Broken Valley\Kirill Pokrovsky-Broken Valley Awakens - THE DRAGON KNIGHT SAGA	
+75: 	149973025	Kirill Pokrovsky-Bottoms up, We'll Drink and Dance!	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Bottoms up, We'll Drink and Dance!_CC09524D.wem	149973025.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Tavern_new\Kirill Pokrovsky-Bottoms up, We'll Drink and Dance!\Kirill Pokrovsky-Bottoms up, We'll Drink and Dance!	
+76: 	162807193	Kirill Pokrovsky-Warmth of a Smile	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Warmth of a Smile_CC09524D.wem	162807193.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Emotional Moments\Emoment_Samson&DesdemonaReconcile\Kirill Pokrovsky-Warmth of a Smile\Kirill Pokrovsky-Warmth of a Smile	
+77: 	165977328	Kirill Pokrovsky-Source Hunter Alt	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Source Hunter Alt_CC09524D.wem	165977328.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Beach_Start\Kirill Pokrovsky-Source Hunter Alt\Kirill Pokrovsky-Source Hunter Alt	
+78: 	178951857	Kirill Pokrovsky-Mystery of a Box	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Mystery of a Box_CC09524D.wem	178951857.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_HIB_Cave_new\Kirill Pokrovsky-Mystery of a Box\Kirill Pokrovsky-Mystery of a Box	
+79: 	184789225	Kirill Pokrovsky-Search for the Divine	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Search for the Divine_CC09524D.wem	184789225.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Beach_new\Kirill Pokrovsky-Search for the Divine\Kirill Pokrovsky-Search for the Divine	
+80: 	194664135	Kirill Pokrovsky-Among the Hidden	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Among the Hidden_CC09524D.wem	194664135.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Undead_new\Kirill Pokrovsky-Among the Hidden\Kirill Pokrovsky-Among the Hidden	
+81: 	195144754	Kirill Pokrovsky-Search For Utopia	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Search For Utopia_CC09524D.wem	195144754.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Homestead_new\Kirill Pokrovsky-Search For Utopia\Kirill Pokrovsky-Search For Utopia	
+82: 	203567444	Lazy_NegaMix_V1	D:\Sound\.cache\Windows\SFX\Endgame_TwistedTavernMusic\Lazy_NegaMix_V1_CC09524D.wem	203567444.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_NegaTavern_new\Lazy_NegaMix_V1\Lazy_NegaMix_V1	
+83: 	205099664	Kirill Pokrovsky-Ambient Ambiance	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Ambient Ambiance_CC09524D.wem	205099664.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Dungeon_new\Kirill Pokrovsky-Ambient Ambiance\Kirill Pokrovsky-Ambient Ambiance	
+84: 	208319483	Kirill Pokrovsky-War and Peace - DIVINE DIVINITY	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-War and Peace - DIVINE DIVINITY_CC09524D.wem	208319483.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_KnightsTomb_new\Kirill Pokrovsky-War and Peace - DIVINE DIVINITY\Kirill Pokrovsky-War and Peace - DIVINE DIVINITY	
+85: 	210066779	Kirill Pokrovsky-Dance of Death	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Dance of Death_CC09524D.wem	210066779.wem	\Interactive Music Hierarchy\Music\Music_Game\Playlist_Combat_new\Kirill Pokrovsky-Dance of Death\Kirill Pokrovsky-Dance of Death	
+86: 	226631273	Kirill Pokrovsky-Sonic Perfume	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Sonic Perfume_CC09524D.wem	226631273.wem	\Interactive Music Hierarchy\Music\Music_Game\Playlist_Combat_new\Kirill Pokrovsky-Sonic Perfume\Kirill Pokrovsky-Sonic Perfume	
+87: 	239852767	Kirill Pokrovsky-Larian Kickstarter	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Larian Kickstarter_CC09524D.wem	239852767.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_LUC_Bard_1\Kirill Pokrovsky-Larian Kickstarter\Kirill Pokrovsky-Larian Kickstarter	
+88: 	241580608	Kirill Pokrovsky-Global Motion	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Global Motion_CC09524D.wem	241580608.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Dungeon_new\Kirill Pokrovsky-Global Motion\Kirill Pokrovsky-Global Motion	
+89: 	254921591	Kirill Pokrovsky-Within Our Mandate	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Within Our Mandate_CC09524D.wem	254921591.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Beach_new\Kirill Pokrovsky-Within Our Mandate\Kirill Pokrovsky-Within Our Mandate	
+90: 	255280911	Kirill Pokrovsky-Paths Beyond Tracing	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Paths Beyond Tracing_CC09524D.wem	255280911.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_BlackCove_new\Kirill Pokrovsky-Paths Beyond Tracing\Kirill Pokrovsky-Paths Beyond Tracing	
+91: 	260088302	Kirill Pokrovsky-Instructions for Angels	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Instructions for Angels_CC09524D.wem	260088302.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_ImmaculateVillage_new\Kirill Pokrovsky-Instructions for Angels\Kirill Pokrovsky-Instructions for Angels	
+92: 	260592759	Kirill Pokrovsky-Mistakes and Lessons	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Mistakes and Lessons_CC09524D.wem	260592759.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Homestead_new\Kirill Pokrovsky-Mistakes and Lessons\Kirill Pokrovsky-Mistakes and Lessons	
+93: 	260918966	Kirill Pokrovsky-Opinions	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Opinions_CC09524D.wem	260918966.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Tavern_new\Kirill Pokrovsky-Opinions\Kirill Pokrovsky-Opinions	
+94: 	301309974	Kirill Pokrovsky-Meridian	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Meridian_CC09524D.wem	301309974.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_ImmaculateVillage_new\Kirill Pokrovsky-Meridian\Kirill Pokrovsky-Meridian	
+95: 	313740217	Kirill Pokrovsky-The Secret Lands	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-The Secret Lands_CC09524D.wem	313740217.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Forest_new\Kirill Pokrovsky-The Secret Lands\Kirill Pokrovsky-The Secret Lands	
+96: 	319200670	Kirill Pokrovsky-Footprints	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Footprints_CC09524D.wem	319200670.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Boss_new\Kirill Pokrovsky-Footprints\Kirill Pokrovsky-Footprints	
+97: 	339547760	Kirill Pokrovsky-The 25ft Hour	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-The 25ft Hour_CC09524D.wem	339547760.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Immaculate_new\Kirill Pokrovsky-The 25ft Hour\Kirill Pokrovsky-The 25ft Hour	
+98: 	343660155	Kirill Pokrovsky-Masks and Faces	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Masks and Faces_CC09524D.wem	343660155.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Hiberheim_new\Kirill Pokrovsky-Masks and Faces\Kirill Pokrovsky-Masks and Faces	
+99: 	351246639	Kirill Pokrovsky-Pleasure of Simplicity Alt	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky-Pleasure of Simplicity Alt_CC09524D.wem	351246639.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Shroud\Music_Explore\Playlist_Friendly_new\Kirill Pokrovsky-Pleasure of Simplicity Alt\Kirill Pokrovsky-Pleasure of Simplicity Alt	
+100: 	379998649	Kirill Pokrovsky- I Will Wait For You	D:\Sound\.cache\Windows\SFX\Kirill Pokrovsky- I Will Wait For You_CC09524D.wem	379998649.wem	\Interactive Music Hierarchy\Music\Music_Game\Music_Emotional Moments\Emoment_Bjorn&Mara\Kirill Pokrovsky- I Will Wait For You\Kirill Pokrovsky- I Will Wait For You	
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

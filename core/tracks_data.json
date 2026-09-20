@@ -1,0 +1,850 @@
+[
+  {
+    "wid": "101217266",
+    "pak_path": "Public/Main/Assets/Sound/101217266.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Clockwork",
+    "title_en": "Clockwork",
+    "playlist": "Playlist_Homestead_new"
+  },
+  {
+    "wid": "1015054286",
+    "pak_path": "Public/Main/Assets/Sound/1015054286.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Forest of the Impaled",
+    "title_en": "Forest of the Impaled",
+    "playlist": "Playlist_Undead_new"
+  },
+  {
+    "wid": "1016568550",
+    "pak_path": "Public/Main/Assets/Sound/1016568550.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Symphonic Ambient",
+    "title_en": "Symphonic Ambient",
+    "playlist": "Playlist_Hiberheim_new"
+  },
+  {
+    "wid": "1025181460",
+    "pak_path": "Public/Main/Assets/Sound/1025181460.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Secret Rooms",
+    "title_en": "Secret Rooms",
+    "playlist": "Playlist_Immaculate_new"
+  },
+  {
+    "wid": "1027046008",
+    "pak_path": "Public/Main/Assets/Sound/1027046008.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: The Garden of Welcome Lies",
+    "title_en": "The Garden of Welcome Lies",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "105957571",
+    "pak_path": "Public/Main/Assets/Sound/105957571.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Bloodstone",
+    "title_en": "Bloodstone",
+    "playlist": "Playlist_Immaculate_new"
+  },
+  {
+    "wid": "1067746391",
+    "pak_path": "Public/Main/Assets/Sound/1067746391.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Revenge of the Forgotten Gods",
+    "title_en": "Revenge of the Forgotten Gods",
+    "playlist": "Playlist_BigBossLeandra"
+  },
+  {
+    "wid": "107079810",
+    "pak_path": "Public/Main/Assets/Sound/107079810.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Dark Delirium",
+    "title_en": "Dark Delirium",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "149871992",
+    "pak_path": "Public/Main/Assets/Sound/149871992.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Broken Valley Awakens - THE DRAGON KNIGHT SAGA",
+    "title_en": "Broken Valley Awakens - THE DRAGON KNIGHT SAGA",
+    "playlist": "Playlist_LUC_Bard_3"
+  },
+  {
+    "wid": "149973025",
+    "pak_path": "Public/Main/Assets/Sound/149973025.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Bottoms up, We'll Drink and Dance!",
+    "title_en": "Bottoms up, We'll Drink and Dance!",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "162807193",
+    "pak_path": "Public/Main/Assets/Sound/162807193.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: Warmth of a Smile",
+    "title_en": "Warmth of a Smile",
+    "playlist": "Emoment_Samson&DesdemonaReconcile"
+  },
+  {
+    "wid": "165977328",
+    "pak_path": "Public/Main/Assets/Sound/165977328.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Source Hunter Alt",
+    "title_en": "Source Hunter Alt",
+    "playlist": "Playlist_Beach_Start"
+  },
+  {
+    "wid": "178951857",
+    "pak_path": "Public/Main/Assets/Sound/178951857.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Mystery of a Box",
+    "title_en": "Mystery of a Box",
+    "playlist": "Playlist_HIB_Cave_new"
+  },
+  {
+    "wid": "184789225",
+    "pak_path": "Public/Main/Assets/Sound/184789225.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Search for the Divine",
+    "title_en": "Search for the Divine",
+    "playlist": "Playlist_Beach_new"
+  },
+  {
+    "wid": "194664135",
+    "pak_path": "Public/Main/Assets/Sound/194664135.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Among the Hidden",
+    "title_en": "Among the Hidden",
+    "playlist": "Playlist_Undead_new"
+  },
+  {
+    "wid": "195144754",
+    "pak_path": "Public/Main/Assets/Sound/195144754.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Search For Utopia",
+    "title_en": "Search For Utopia",
+    "playlist": "Playlist_Homestead_new"
+  },
+  {
+    "wid": "203567444",
+    "pak_path": "Public/Main/Assets/Sound/203567444.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Lazy_NegaMix_V1",
+    "title_en": "Lazy_NegaMix_V1",
+    "playlist": "Playlist_NegaTavern_new"
+  },
+  {
+    "wid": "205099664",
+    "pak_path": "Public/Main/Assets/Sound/205099664.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Ambient Ambiance",
+    "title_en": "Ambient Ambiance",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "208319483",
+    "pak_path": "Public/Main/Assets/Sound/208319483.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: War and Peace - DIVINE DIVINITY",
+    "title_en": "War and Peace - DIVINE DIVINITY",
+    "playlist": "Playlist_KnightsTomb_new"
+  },
+  {
+    "wid": "210066779",
+    "pak_path": "Public/Main/Assets/Sound/210066779.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Dance of Death",
+    "title_en": "Dance of Death",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "226631273",
+    "pak_path": "Public/Main/Assets/Sound/226631273.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Sonic Perfume",
+    "title_en": "Sonic Perfume",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "239852767",
+    "pak_path": "Public/Main/Assets/Sound/239852767.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Larian Kickstarter",
+    "title_en": "Larian Kickstarter",
+    "playlist": "Playlist_LUC_Bard_1"
+  },
+  {
+    "wid": "241580608",
+    "pak_path": "Public/Main/Assets/Sound/241580608.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Global Motion",
+    "title_en": "Global Motion",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "254921591",
+    "pak_path": "Public/Main/Assets/Sound/254921591.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Within Our Mandate",
+    "title_en": "Within Our Mandate",
+    "playlist": "Playlist_Beach_new"
+  },
+  {
+    "wid": "255280911",
+    "pak_path": "Public/Main/Assets/Sound/255280911.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Paths Beyond Tracing",
+    "title_en": "Paths Beyond Tracing",
+    "playlist": "Playlist_BlackCove_new"
+  },
+  {
+    "wid": "260088302",
+    "pak_path": "Public/Main/Assets/Sound/260088302.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Instructions for Angels",
+    "title_en": "Instructions for Angels",
+    "playlist": "Playlist_ImmaculateVillage_new"
+  },
+  {
+    "wid": "260592759",
+    "pak_path": "Public/Main/Assets/Sound/260592759.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Mistakes and Lessons",
+    "title_en": "Mistakes and Lessons",
+    "playlist": "Playlist_Homestead_new"
+  },
+  {
+    "wid": "260918966",
+    "pak_path": "Public/Main/Assets/Sound/260918966.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Opinions",
+    "title_en": "Opinions",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "301309974",
+    "pak_path": "Public/Main/Assets/Sound/301309974.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Meridian",
+    "title_en": "Meridian",
+    "playlist": "Playlist_ImmaculateVillage_new"
+  },
+  {
+    "wid": "313740217",
+    "pak_path": "Public/Main/Assets/Sound/313740217.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: The Secret Lands",
+    "title_en": "The Secret Lands",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "319200670",
+    "pak_path": "Public/Main/Assets/Sound/319200670.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Footprints",
+    "title_en": "Footprints",
+    "playlist": "Playlist_Boss_new"
+  },
+  {
+    "wid": "339547760",
+    "pak_path": "Public/Main/Assets/Sound/339547760.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: The 25ft Hour",
+    "title_en": "The 25ft Hour",
+    "playlist": "Playlist_Immaculate_new"
+  },
+  {
+    "wid": "343660155",
+    "pak_path": "Public/Main/Assets/Sound/343660155.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Masks and Faces",
+    "title_en": "Masks and Faces",
+    "playlist": "Playlist_Hiberheim_new"
+  },
+  {
+    "wid": "351246639",
+    "pak_path": "Public/Main/Assets/Sound/351246639.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Pleasure of Simplicity Alt",
+    "title_en": "Pleasure of Simplicity Alt",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "36241249",
+    "pak_path": "Public/Main/Assets/Sound/36241249.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Sighs of the Elvenkind - DIVINE DIVINITY",
+    "title_en": "Sighs of the Elvenkind - DIVINE DIVINITY",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "379998649",
+    "pak_path": "Public/Main/Assets/Sound/379998649.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: I Will Wait For You",
+    "title_en": "I Will Wait For You",
+    "playlist": "Emoment_Bjorn&Mara"
+  },
+  {
+    "wid": "383633060",
+    "pak_path": "Public/Main/Assets/Sound/383633060.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: This Dragon Won't Sleep",
+    "title_en": "This Dragon Won't Sleep",
+    "playlist": "Playlist_Boss_new"
+  },
+  {
+    "wid": "384338012",
+    "pak_path": "Public/Main/Assets/Sound/384338012.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: The Real Meaning of the Book",
+    "title_en": "The Real Meaning of the Book",
+    "playlist": "Playlist_Immaculate_new"
+  },
+  {
+    "wid": "385151073",
+    "pak_path": "Public/Main/Assets/Sound/385151073.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Beyond the Waves of Time",
+    "title_en": "Beyond the Waves of Time",
+    "playlist": "Playlist_Homestead_new"
+  },
+  {
+    "wid": "393041995",
+    "pak_path": "Public/Main/Assets/Sound/393041995.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Memories of the Future",
+    "title_en": "Memories of the Future",
+    "playlist": "Playlist_CharScreen"
+  },
+  {
+    "wid": "398817810",
+    "pak_path": "Public/Main/Assets/Sound/398817810.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Nasty Creatures and Restless Guard",
+    "title_en": "Nasty Creatures and Restless Guard",
+    "playlist": "Playlist_LUC_Bard_2"
+  },
+  {
+    "wid": "417191043",
+    "pak_path": "Public/Main/Assets/Sound/417191043.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Medieval Tears Alt",
+    "title_en": "Medieval Tears Alt",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "41990860",
+    "pak_path": "Public/Main/Assets/Sound/41990860.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Forest and Wind",
+    "title_en": "Forest and Wind",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "429416120",
+    "pak_path": "Public/Main/Assets/Sound/429416120.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Forest of Fairytales",
+    "title_en": "Forest of Fairytales",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "434790036",
+    "pak_path": "Public/Main/Assets/Sound/434790036.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Fight Flight",
+    "title_en": "Fight Flight",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "439995809",
+    "pak_path": "Public/Main/Assets/Sound/439995809.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Cramped Spaces",
+    "title_en": "Cramped Spaces",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "445844626",
+    "pak_path": "Public/Main/Assets/Sound/445844626.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Flutter of a Butterfly",
+    "title_en": "Flutter of a Butterfly",
+    "playlist": "Playlist_Beach_Start"
+  },
+  {
+    "wid": "447734569",
+    "pak_path": "Public/Main/Assets/Sound/447734569.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Power of Innocence",
+    "title_en": "Power of Innocence",
+    "playlist": "Playlist_Beach_Start"
+  },
+  {
+    "wid": "464355594",
+    "pak_path": "Public/Main/Assets/Sound/464355594.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Goblins! No Time To Waste! - THE DRAGON KNIGHT SAGA",
+    "title_en": "Goblins! No Time To Waste! - THE DRAGON KNIGHT SAGA",
+    "playlist": "Playlist_LUC_GoblinVillage_new"
+  },
+  {
+    "wid": "46701626",
+    "pak_path": "Public/Main/Assets/Sound/46701626.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Stealing Light",
+    "title_en": "Stealing Light",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "472762753",
+    "pak_path": "Public/Main/Assets/Sound/472762753.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Where Are You",
+    "title_en": "Where Are You",
+    "playlist": "Playlist_Hiberheim_new"
+  },
+  {
+    "wid": "472763792",
+    "pak_path": "Public/Main/Assets/Sound/472763792.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Unconscious Fantasies",
+    "title_en": "Unconscious Fantasies",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "475891865",
+    "pak_path": "Public/Main/Assets/Sound/475891865.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Drowning Hope",
+    "title_en": "Drowning Hope",
+    "playlist": "Playlist_Beach_new"
+  },
+  {
+    "wid": "486638426",
+    "pak_path": "Public/Main/Assets/Sound/486638426.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: War Drums",
+    "title_en": "War Drums",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "504222439",
+    "pak_path": "Public/Main/Assets/Sound/504222439.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Empty Heart",
+    "title_en": "Empty Heart",
+    "playlist": "Playlist_Homestead_new"
+  },
+  {
+    "wid": "509132863",
+    "pak_path": "Public/Main/Assets/Sound/509132863.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: The Blueprint is Evil",
+    "title_en": "The Blueprint is Evil",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "514671853",
+    "pak_path": "Public/Main/Assets/Sound/514671853.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Behind the Walls",
+    "title_en": "Behind the Walls",
+    "playlist": "Playlist_Dungeon_new"
+  },
+  {
+    "wid": "563345150",
+    "pak_path": "Public/Main/Assets/Sound/563345150.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Primitive Truth",
+    "title_en": "Primitive Truth",
+    "playlist": "Playlist_Hiberheim_new"
+  },
+  {
+    "wid": "567363482",
+    "pak_path": "Public/Main/Assets/Sound/567363482.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Drunk with Dwarven Mirth - DIVINE DIVINITY",
+    "title_en": "Drunk with Dwarven Mirth - DIVINE DIVINITY",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "586142606",
+    "pak_path": "Public/Main/Assets/Sound/586142606.wem",
+    "category": "other",
+    "title_ru": "Прочее: Silence_2mins",
+    "title_en": "Silence_2mins",
+    "playlist": "Unknown"
+  },
+  {
+    "wid": "604697389",
+    "pak_path": "Public/Main/Assets/Sound/604697389.wem",
+    "category": "other",
+    "title_ru": "Прочее: 67  stage 2  ORIGINAL SIN )",
+    "title_en": "67  stage 2  ORIGINAL SIN )",
+    "playlist": "Unknown"
+  },
+  {
+    "wid": "607594186",
+    "pak_path": "Public/Main/Assets/Sound/607594186.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Bittersweet Regrets",
+    "title_en": "Bittersweet Regrets",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "622088375",
+    "pak_path": "Public/Main/Assets/Sound/622088375.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Dark Matter",
+    "title_en": "Dark Matter",
+    "playlist": "Playlist_BlackCove_new"
+  },
+  {
+    "wid": "625008718",
+    "pak_path": "Public/Main/Assets/Sound/625008718.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Imaginary Roads",
+    "title_en": "Imaginary Roads",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "626152710",
+    "pak_path": "Public/Main/Assets/Sound/626152710.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Retrospective",
+    "title_en": "Retrospective",
+    "playlist": "Playlist_Trollcave_new"
+  },
+  {
+    "wid": "627054657",
+    "pak_path": "Public/Main/Assets/Sound/627054657.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Blossom In a Storm",
+    "title_en": "Blossom In a Storm",
+    "playlist": "Playlist_KnightsTomb_new"
+  },
+  {
+    "wid": "628671998",
+    "pak_path": "Public/Main/Assets/Sound/628671998.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Land of Forever",
+    "title_en": "Land of Forever",
+    "playlist": "Playlist_Hiberheim_new"
+  },
+  {
+    "wid": "657426302",
+    "pak_path": "Public/Main/Assets/Sound/657426302.wem",
+    "category": "homestead",
+    "title_ru": "Обитель / Чертоги: Mysterious Guest",
+    "title_en": "Mysterious Guest",
+    "playlist": "Playlist_Home_HallOfHeroes_new"
+  },
+  {
+    "wid": "682997995",
+    "pak_path": "Public/Main/Assets/Sound/682997995.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: Roads Shaded by Green Leaves - DIVINE DIVINITY",
+    "title_en": "Roads Shaded by Green Leaves - DIVINE DIVINITY",
+    "playlist": "Emoment_BairdotrFindsJareth"
+  },
+  {
+    "wid": "68390062",
+    "pak_path": "Public/Main/Assets/Sound/68390062.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: The Road to Nowhere",
+    "title_en": "The Road to Nowhere",
+    "playlist": "Playlist_LUC_Silverglen_new"
+  },
+  {
+    "wid": "691978178",
+    "pak_path": "Public/Main/Assets/Sound/691978178.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Year of the Dragon",
+    "title_en": "Year of the Dragon",
+    "playlist": "Playlist_Boss_new"
+  },
+  {
+    "wid": "694044056",
+    "pak_path": "Public/Main/Assets/Sound/694044056.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Voice of Reason Alt",
+    "title_en": "Voice of Reason Alt",
+    "playlist": "Playlist_Beach_new"
+  },
+  {
+    "wid": "707232816",
+    "pak_path": "Public/Main/Assets/Sound/707232816.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: The Magic Touch",
+    "title_en": "The Magic Touch",
+    "playlist": "Playlist_LUC_Silverglen_new"
+  },
+  {
+    "wid": "712547581",
+    "pak_path": "Public/Main/Assets/Sound/712547581.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: BottomsUp_NegaMix_V1",
+    "title_en": "BottomsUp_NegaMix_V1",
+    "playlist": "Playlist_NegaTavern_new"
+  },
+  {
+    "wid": "721823206",
+    "pak_path": "Public/Main/Assets/Sound/721823206.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: Soul Cage (Part II)",
+    "title_en": "Soul Cage (Part II)",
+    "playlist": "Emoment_SamsonStory"
+  },
+  {
+    "wid": "725074516",
+    "pak_path": "Public/Main/Assets/Sound/725074516.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Blue Mountain",
+    "title_en": "Blue Mountain",
+    "playlist": "Playlist_LUC_Silverglen_new"
+  },
+  {
+    "wid": "727242154",
+    "pak_path": "Public/Main/Assets/Sound/727242154.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Lazy",
+    "title_en": "Lazy",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "732302114",
+    "pak_path": "Public/Main/Assets/Sound/732302114.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: In The Caverns Of Your Mind",
+    "title_en": "In The Caverns Of Your Mind",
+    "playlist": "Playlist_Undead_new"
+  },
+  {
+    "wid": "73372589",
+    "pak_path": "Public/Main/Assets/Sound/73372589.wem",
+    "category": "menu",
+    "title_ru": "Главное меню: Original Sin",
+    "title_en": "Original Sin",
+    "playlist": "Playlist_MainTheme_new"
+  },
+  {
+    "wid": "736948697",
+    "pak_path": "Public/Main/Assets/Sound/736948697.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: I Knew It Before",
+    "title_en": "I Knew It Before",
+    "playlist": "Playlist_CassandraTomb_new"
+  },
+  {
+    "wid": "758514299",
+    "pak_path": "Public/Main/Assets/Sound/758514299.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Fight Orchestral",
+    "title_en": "Fight Orchestral",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "760087906",
+    "pak_path": "Public/Main/Assets/Sound/760087906.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Follow Me",
+    "title_en": "Follow Me",
+    "playlist": "Playlist_CysMarket_new"
+  },
+  {
+    "wid": "785512744",
+    "pak_path": "Public/Main/Assets/Sound/785512744.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Locked in Wonderland",
+    "title_en": "Locked in Wonderland",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "786453002",
+    "pak_path": "Public/Main/Assets/Sound/786453002.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Idol to Worship",
+    "title_en": "Idol to Worship",
+    "playlist": "Playlist_LUC_GoblinVillage_new"
+  },
+  {
+    "wid": "787423819",
+    "pak_path": "Public/Main/Assets/Sound/787423819.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Forever Dusk",
+    "title_en": "Forever Dusk",
+    "playlist": "Playlist_Undead_new"
+  },
+  {
+    "wid": "796644086",
+    "pak_path": "Public/Main/Assets/Sound/796644086.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: Life is Worth Living",
+    "title_en": "Life is Worth Living",
+    "playlist": "Emoment_ArhusTruth"
+  },
+  {
+    "wid": "797788967",
+    "pak_path": "Public/Main/Assets/Sound/797788967.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Lake of Serenity",
+    "title_en": "Lake of Serenity",
+    "playlist": "Playlist_Beach_new"
+  },
+  {
+    "wid": "807975981",
+    "pak_path": "Public/Main/Assets/Sound/807975981.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Spirit Keepers",
+    "title_en": "Spirit Keepers",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "821562665",
+    "pak_path": "Public/Main/Assets/Sound/821562665.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Shadowstorm",
+    "title_en": "Shadowstorm",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "834949824",
+    "pak_path": "Public/Main/Assets/Sound/834949824.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: The Four Seasons Singing",
+    "title_en": "The Four Seasons Singing",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "847267542",
+    "pak_path": "Public/Main/Assets/Sound/847267542.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Initiation",
+    "title_en": "Initiation",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "851246258",
+    "pak_path": "Public/Main/Assets/Sound/851246258.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Moon Dance",
+    "title_en": "Moon Dance",
+    "playlist": "Playlist_HIB_WhiteWitch_new"
+  },
+  {
+    "wid": "854212674",
+    "pak_path": "Public/Main/Assets/Sound/854212674.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Guardian of winds",
+    "title_en": "Guardian of winds",
+    "playlist": "Playlist_Undead_new"
+  },
+  {
+    "wid": "855699518",
+    "pak_path": "Public/Main/Assets/Sound/855699518.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Cast in Secret",
+    "title_en": "Cast in Secret",
+    "playlist": "Playlist_BlackCove_new"
+  },
+  {
+    "wid": "865681187",
+    "pak_path": "Public/Main/Assets/Sound/865681187.wem",
+    "category": "dungeon",
+    "title_ru": "Подземелье / Склеп: Sacred Cult - BEYOND DIVINITY",
+    "title_en": "Sacred Cult - BEYOND DIVINITY",
+    "playlist": "Playlist_Immaculate_new"
+  },
+  {
+    "wid": "869819245",
+    "pak_path": "Public/Main/Assets/Sound/869819245.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Tavern - BEYOND DIVINITY",
+    "title_en": "Tavern - BEYOND DIVINITY",
+    "playlist": "Playlist_Tavern_new"
+  },
+  {
+    "wid": "877546059",
+    "pak_path": "Public/Main/Assets/Sound/877546059.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Fantasies_NegaMix_V1",
+    "title_en": "Fantasies_NegaMix_V1",
+    "playlist": "Playlist_NegaTavern_new"
+  },
+  {
+    "wid": "885951689",
+    "pak_path": "Public/Main/Assets/Sound/885951689.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Tides of Battle-THE DRAGON KNIGHT SAGA",
+    "title_en": "Tides of Battle-THE DRAGON KNIGHT SAGA",
+    "playlist": "Playlist_Combat_new"
+  },
+  {
+    "wid": "902804193",
+    "pak_path": "Public/Main/Assets/Sound/902804193.wem",
+    "category": "combat",
+    "title_ru": "Битва / Босс: Battle Force-THE DRAGON KNIGHT SAGA",
+    "title_en": "Battle Force-THE DRAGON KNIGHT SAGA",
+    "playlist": "Music_Bossfight"
+  },
+  {
+    "wid": "905343388",
+    "pak_path": "Public/Main/Assets/Sound/905343388.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: A Wind of Aleroth - DIVINE DIVINITY",
+    "title_en": "A Wind of Aleroth - DIVINE DIVINITY",
+    "playlist": "Playlist_Forest_new"
+  },
+  {
+    "wid": "906679137",
+    "pak_path": "Public/Main/Assets/Sound/906679137.wem",
+    "category": "other",
+    "title_ru": "Прочее: Mirror of Truth",
+    "title_en": "Mirror of Truth",
+    "playlist": "Unknown"
+  },
+  {
+    "wid": "931352935",
+    "pak_path": "Public/Main/Assets/Sound/931352935.wem",
+    "category": "story",
+    "title_ru": "Сюжетный момент: The Brief Life of an Illusion",
+    "title_en": "The Brief Life of an Illusion",
+    "playlist": "Emoment_Jahan&Hiraka"
+  },
+  {
+    "wid": "93489105",
+    "pak_path": "Public/Main/Assets/Sound/93489105.wem",
+    "category": "other",
+    "title_ru": "Прочее: Source Hunter Alt",
+    "title_en": "Source Hunter Alt",
+    "playlist": "Unknown"
+  },
+  {
+    "wid": "965285911",
+    "pak_path": "Public/Main/Assets/Sound/965285911.wem",
+    "category": "tavern",
+    "title_ru": "Таверна / Бард: Drunk_NegaMix_V1",
+    "title_en": "Drunk_NegaMix_V1",
+    "playlist": "Playlist_NegaTavern_new"
+  },
+  {
+    "wid": "974650258",
+    "pak_path": "Public/Main/Assets/Sound/974650258.wem",
+    "category": "town",
+    "title_ru": "Город / Мирная зона: Lullabies For your Inner Dragon",
+    "title_en": "Lullabies For your Inner Dragon",
+    "playlist": "Playlist_Friendly_new"
+  },
+  {
+    "wid": "98925550",
+    "pak_path": "Public/Main/Assets/Sound/98925550.wem",
+    "category": "nature",
+    "title_ru": "Природа / Локация: Mirror of Truth",
+    "title_en": "Mirror of Truth",
+    "playlist": "Playlist_Beach_Start"
+  }
+]
