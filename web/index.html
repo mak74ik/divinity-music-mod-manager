@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divinity Music Mod Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Ambient Background Container (Preserved Game Artwork & Fade) -->
+  <div class="bg-wrapper">
+    <div class="bg-art"></div>
+    <div class="bg-gradient-overlay"></div>
+    <div class="bg-vignette"></div>
+  </div>
+
+  <!-- Main Application Frame -->
+  <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-compact-disc"></i>
+        </div>
+        <div class="brand-text">
+          <h1>DIVINITY</h1>
+          <span class="subtitle">MUSIC MOD MANAGER</span>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs">
+        <button class="nav-tab active" data-tab="tracks">
+          <i class="fa-solid fa-list-ul"></i>
+          <span data-i18n="tabTracks">Tracks</span>
+        </button>
+        <button class="nav-tab" data-tab="quick-fill">
+          <i class="fa-solid fa-bolt"></i>
+          <span data-i18n="tabQuickFill">Quick Fill</span>
+        </button>
+        <button class="nav-tab" data-tab="info">
+          <i class="fa-solid fa-circle-info"></i>
+          <span data-i18n="tabInfo">About & Info</span>
+        </button>
+      </nav>
+
+      <!-- Language Selector & Search -->
+      <div class="header-actions">
+        <!-- Language Dropdown -->
+        <div class="lang-selector">
+          <i class="fa-solid fa-globe"></i>
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="pl">Polski</option>
+            <option value="it">Italiano</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="searchInput" placeholder="Search track or scene...">
+          <button id="clearSearch" class="clear-search-btn" style="display:none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      <!-- TAB 1: TRACKS VIEW -->
+      <section id="tab-tracks" class="tab-pane active">
+        <!-- Categories Sidebar -->
+        <aside class="categories-bar" id="categoriesBar">
+          <!-- Rendered dynamically -->
+        </aside>
+
+        <!-- Tracks List Container -->
+        <div class="tracks-viewport">
+          <div class="tracks-toolbar">
+            <div class="current-category-info">
+              <h2 id="currentCatTitle">All Tracks</h2>
+              <p id="currentCatDesc">All 106 in-game music tracks. Default tracks retain original audio.</p>
+            </div>
+            <div class="category-actions">
+              <button id="btnQuickFillCat" class="btn-win11 btn-secondary" style="display: none;">
+                <i class="fa-solid fa-bolt"></i>
+                <span data-i18n="quickFillCatBtn">Fill Category</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Structured Tracks List Table -->
+          <div class="tracks-list-container">
+            <div class="tracks-table-header">
+              <div class="col-idx">#</div>
+              <div class="col-scene" data-i18n="colScene">Scene / In-Game Target</div>
+              <div class="col-status" data-i18n="colStatus">Status</div>
+              <div class="col-audio" data-i18n="colAudio">Assigned Audio</div>
+              <div class="col-actions" data-i18n="colActions">Actions</div>
+            </div>
+            <div class="tracks-list" id="tracksList">
+              <!-- Rendered by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: QUICK FILL VIEW -->
+      <section id="tab-quick-fill" class="tab-pane">
+        <div class="quick-fill-container">
+          <div class="quick-fill-hero">
+            <h2 data-i18n="qfHeroTitle">Batch Category Assignment</h2>
+            <p data-i18n="qfHeroDesc">Quickly assign a single audio track or folder to an entire category (e.g. all Combat tracks or Taverns):</p>
+          </div>
+
+          <div class="quick-fill-grid" id="quickFillGrid">
+            <!-- Rendered by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: INFO VIEW -->
+      <section id="tab-info" class="tab-pane">
+        <div class="info-container">
+          <div class="info-card">
+            <div class="author-badge">
+              <div class="author-avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="author-details">
+                <h3>Mizuqa</h3>
+                <span class="badge-role" data-i18n="infoAuthorRole">Mod Creator & Audio Designer</span>
+              </div>
+            </div>
+
+            <p class="info-intro" data-i18n="infoIntro">
+              Creator of modifications for Divinity: Original Sin Enhanced Edition, including the Baldur's Gate 3 Music Overhaul.
+            </p>
+
+            <div class="external-links">
+              <button class="link-btn nexus-btn" onclick="openExternal('https://www.nexusmods.com/profile/Mizuqa?gameId=1995')">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span data-i18n="infoNexusLink">Nexus Mods Profile</span>
+              </button>
+              <button class="link-btn github-btn" onclick="openExternal('https://github.com/mak74ik/divinity-music-mod-manager')">
+                <i class="fa-brands fa-github"></i>
+                <span data-i18n="infoGithubLink">GitHub Repository</span>
+              </button>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="info-guide">
+              <h4 data-i18n="infoGuideTitle">How it works:</h4>
+              <ul>
+                <li data-i18n="infoGuide1"><strong>Simplicity:</strong> Provide standard MP3 audio files. The program converts them into engine-native Wwise Vorbis with EBU R128 loudness normalization.</li>
+                <li data-i18n="infoGuide2"><strong>Partial Replacement:</strong> You only need to replace the tracks you want. All empty/unmodified slots automatically keep their original game music.</li>
+                <li data-i18n="infoGuide3"><strong>Installation:</strong> Place the generated <code>z_Custom_Music.pak</code> into your game's <code>Data</code> folder.</li>
+                <li data-i18n="infoGuide4"><strong>Uninstallation:</strong> Delete <code>z_Custom_Music.pak</code> from your <code>Data</code> folder. Original game files remain completely untouched.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bottom Action Footer -->
+    <footer class="app-footer">
+      <div class="footer-stats">
+        <div class="stat-item">
+          <span class="stat-label" data-i18n="statModified">Replaced:</span>
+          <span class="stat-value text-accent" id="statModified">0</span>
+        </div>
+        <div class="stat-separator">|</div>
+        <div class="stat-item">
+          <span class="stat-label" data-i18n="statOriginal">Original:</span>
+          <span class="stat-value" id="statVanilla">106</span>
+        </div>
+        <button id="btnResetAll" class="btn-text" data-i18n="btnResetAll" title="Reset all custom tracks back to original">
+          <i class="fa-solid fa-rotate-left"></i> Reset All
+        </button>
+      </div>
+
+      <!-- Main Action Button -->
+      <div class="footer-action">
+        <button id="btnBuildMod" class="btn-win11 btn-primary" disabled>
+          <i class="fa-solid fa-hammer"></i>
+          <span data-i18n="btnBuild">Build & Save Mod</span>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Global Audio Player for Previews -->
+  <audio id="globalAudioPlayer" preload="none"></audio>
+
+  <!-- Hidden File Input for Direct Native WebKit Selection -->
+  <input type="file" id="hiddenFileInput" accept=".mp3,.wav,.flac,.ogg,.m4a" style="display: none;">
+
+  <!-- Build Progress Modal -->
+  <div id="buildModal" class="modal-backdrop" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modalTitle" data-i18n="buildModalTitle">Building Divinity Mod</h3>
+      </div>
+      <div class="modal-body">
+        <p id="modalStatusText" class="modal-status">Preparing files...</p>
+        <div class="progress-bar-container">
+          <div id="modalProgressBar" class="progress-bar-fill" style="width: 0%;"></div>
+        </div>
+        <div class="progress-details">
+          <span id="modalProgressPercent">0%</span>
+          <span id="modalProgressCount">0 / 0</span>
+        </div>
+      </div>
+      <div class="modal-footer" id="modalFooter" style="display: none;">
+        <button id="modalBtnOpenFolder" class="btn-win11 btn-secondary" data-i18n="btnOpenFolder">
+          <i class="fa-solid fa-folder-open"></i> Open Folder
+        </button>
+        <button id="modalBtnClose" class="btn-win11 btn-primary" data-i18n="btnClose">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Category Fill Modal -->
+  <div id="quickFillModal" class="modal-backdrop" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="qfModalTitle">Fill Category</h3>
+        <button class="modal-close-btn" onclick="closeQuickFillModal()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p id="qfModalDesc" data-i18n="qfModalPrompt">Select an MP3 file to apply to all tracks in this category:</p>
+        <div class="qf-dropzone" id="qfDropzone" onclick="triggerQuickFillPicker()">
+          <i class="fa-solid fa-file-audio"></i>
+          <span data-i18n="qfDropzoneText">Click to select MP3 or drag file here</span>
+          <span id="qfSelectedFile" class="qf-filename"></span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-win11 btn-secondary" onclick="closeQuickFillModal()" data-i18n="btnCancel">Cancel</button>
+        <button id="qfBtnApply" class="btn-win11 btn-primary" disabled onclick="applyQuickFill()" data-i18n="btnApply">
+          Apply to All Tracks
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
