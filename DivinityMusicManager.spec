@@ -13,24 +13,32 @@ datas = [
     (os.path.join(BASE_DIR, 'bin'), 'bin'),
 ]
 
+hiddenimports = [
+    'bottle',
+    'lz4',
+    'lz4.block',
+    'pywebview',
+    'proxy_tools',
+    'core',
+    'core.taxonomy',
+    'core.convert_ogg_to_wem',
+    'core.wem_encoder',
+    'core.lspk_packer',
+]
+
+if sys.platform == 'darwin':
+    hiddenimports.append('pywebview.platforms.cocoa')
+elif sys.platform == 'win32':
+    hiddenimports.extend(['pywebview.platforms.winforms', 'pywebview.platforms.edgechromium', 'clr'])
+else:
+    hiddenimports.extend(['pywebview.platforms.gtk', 'pywebview.platforms.qt'])
+
 a = Analysis(
     ['app.py'],
     pathex=[BASE_DIR],
     binaries=[],
     datas=datas,
-    hiddenimports=[
-        'bottle',
-        'lz4',
-        'lz4.block',
-        'pywebview',
-        'pywebview.platforms.cocoa',
-        'proxy_tools',
-        'core',
-        'core.taxonomy',
-        'core.convert_ogg_to_wem',
-        'core.wem_encoder',
-        'core.lspk_packer',
-    ],
+    hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -42,6 +50,8 @@ a = Analysis(
 )
 
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe_icon = os.path.join(BASE_DIR, 'assets', 'app_icon.icns') if sys.platform == 'darwin' else None
 
 exe = EXE(
     pyz,
@@ -59,7 +69,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=os.path.join(BASE_DIR, 'assets', 'app_icon.icns'),
+    icon=exe_icon,
 )
 
 coll = COLLECT(
@@ -73,17 +83,18 @@ coll = COLLECT(
     name='DivinityMusicManager',
 )
 
-app = BUNDLE(
-    coll,
-    name='Divinity Music Mod Manager.app',
-    icon=os.path.join(BASE_DIR, 'assets', 'app_icon.icns'),
-    bundle_identifier='com.mizuqa.divinitymusicmanager',
-    info_plist={
-        'CFBundleDisplayName': 'Divinity Music Mod Manager',
-        'CFBundleName': 'Divinity Music Mod Manager',
-        'CFBundleShortVersionString': '1.0.0',
-        'CFBundleVersion': '1.0.0',
-        'NSHighResolutionCapable': 'True',
-        'LSMinimumSystemVersion': '11.0.0',
-    }
-)
+if sys.platform == 'darwin':
+    app = BUNDLE(
+        coll,
+        name='Divinity Music Mod Manager.app',
+        icon=os.path.join(BASE_DIR, 'assets', 'app_icon.icns'),
+        bundle_identifier='com.mizuqa.divinitymusicmanager',
+        info_plist={
+            'CFBundleDisplayName': 'Divinity Music Mod Manager',
+            'CFBundleName': 'Divinity Music Mod Manager',
+            'CFBundleShortVersionString': '1.0.0',
+            'CFBundleVersion': '1.0.0',
+            'NSHighResolutionCapable': 'True',
+            'LSMinimumSystemVersion': '11.0.0',
+        }
+    )
