@@ -41,7 +41,7 @@
 ### Быстрый старт:
 
 ```bash
-cd /Users/yoshi/Projects/DivinityMusicManager
+cd ~/Projects/DivinityMusicManager
 ./run.sh
 ```
 
